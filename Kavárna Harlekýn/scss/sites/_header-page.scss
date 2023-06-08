@@ -1,0 +1,108 @@
+.index-header{
+    background: url('/img/landing-page/tart.jpg');
+    @include picture-background;
+    
+}
+
+.second-header{
+
+    .nav{
+        .logo{
+            color: #222222;
+        }
+    }
+
+    .menu-nav{
+        &-link{
+            color:$nav-color ;
+        }
+    }  
+}
+
+.nav{
+    line-height: em(120px);
+    text-transform: uppercase;
+    padding: 0 em(30px);
+
+    .logo{
+        font-size: em(20px);
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        float: left;
+        
+        a{
+            text-decoration: none;
+        }
+    }  
+}
+
+.menu-nav{
+    float: right;
+
+      &-item{
+          display: inline-block;
+          padding: 0 em(16px);  
+      }
+
+      &-link{
+          color: #fff;
+          text-decoration: none;
+          font-size:em(15.5px);
+          font-weight: 400;
+          font-family:'Josefin Sans', sans-serif ;    
+          transition: all 0.5s ease;
+
+          &:hover{
+              color: $second-text-color;
+          }
+      }
+
+      .active > a{
+          color: $second-text-color;
+      }
+  }
+
+.navigatio-main-content{
+    display:block;
+    color:#fff;
+    padding: em(200px) em(30px);
+    font-family: 'Josefin Sans',sans-serif;
+    
+    h3{
+        font-size: em(64px);
+        color: $second-text-color;
+        font-family:$title-font;
+        font-weight: 100;
+    }
+
+    h1{
+        font-size: em(62px);
+        color: #fff;
+        margin: em(55px,62px) 0 em(65px,62px) 0;
+    }
+
+    p{
+        color: #fff;
+        position: relative;
+        font-size: em(16px);
+        margin-left: em(55px);
+        text-transform: uppercase;
+        font-family: $main-font;
+
+        &::before{ 
+            content:'';   
+            position: absolute;
+            top: 5px;
+            left: -50px;
+            display: inline-block;
+            width: em(42px);
+            height: em(3px);
+            background-color: $second-text-color;
+        }
+    }
+}
+
+
+
+

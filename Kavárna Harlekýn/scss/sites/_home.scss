@@ -1,0 +1,133 @@
+/*day menu*/
+.menu-of-the-day{
+   padding: em(100px) em(25px);
+}
+
+
+.description-of-the-offer{
+   
+    h3{
+        @include second-title;
+    }
+
+    h2{
+        @include main-title;
+    }
+
+    p{
+        @include text;
+    }
+
+    .button{
+        @include button;
+    }
+}
+
+.price-items{    
+    color: black;
+    border-bottom: 1px solid #d4d4d4;
+
+    &:nth-last-child(1){
+        border-bottom: none;
+    }
+
+    .price-item{
+        display: inline-block;
+
+        h3{  
+            font-size: em(21.5px); 
+            font-family: $main-font; 
+            font-weight: 500;   
+            margin: em(10px)  0 10px;     
+        }
+
+        p{
+            margin-bottom: em(15px);
+        }
+    }
+
+    .price-offer{
+        color: black;
+        font-size: em(20px);
+        font-family: $main-font;
+        float: right;
+        margin-top: em(10px);
+    } 
+}    
+
+
+
+.cherries-cake{
+    background-image: url('/img/landing-page/cherrycake.jpg');
+    @include  picture-background(65vh) ;
+}
+
+.our-story{
+    padding: em(100px) em(25px);
+
+    &-title{
+        display: inline-block;
+        h3{
+            @include second-title;
+        }
+
+        h2{
+            @include main-title;
+        }
+    }
+
+    .story{
+
+        p{   
+            @include text(em(20px));
+        }     
+    }
+}
+
+.fruity-cake{
+    background-image: url('/img/landing-page/fruitycake.jpg');
+    @include  picture-background(65vh);
+}
+
+.reservation{
+    padding: em(100px) em(25px);
+
+    &-title{
+        display: inline-block;
+        h3{
+            @include second-title;
+        }
+
+        h2{
+            @include main-title;
+        }
+    }
+
+    &-information{
+        p{ 
+            @include text(em(16px));
+        }  
+
+        .phone{
+            padding-bottom: em(40px);
+
+            a{
+                color:$text-color;
+                font-family:$second-font;
+                text-decoration: none;
+        
+                &:hover{
+                    color: darken($color: $text-color, $amount: 20%);
+                }
+            }
+        }
+
+        .button{
+            @include button(em(10px) em(35px));
+        }
+
+    }
+}
+
+
+

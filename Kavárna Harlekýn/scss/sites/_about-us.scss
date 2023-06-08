@@ -1,0 +1,38 @@
+.about-us{
+    padding: em(50px) em(10px) em(100px);
+
+    &-title{
+        display: inline-block;
+        h3{
+            @include second-title;
+        }
+
+        h2{
+            @include main-title(em(45px));
+        }
+    }
+
+    .story{
+
+        p{        
+            @include text(em(25px));
+            font-size: em(15.5px);
+        }     
+    }
+}
+
+.continue-about-us{ 
+    padding-top: em(40px);
+
+    img{
+        display: inline-block;
+    }
+
+    p{
+        width: 100%;
+        font-size: em(16px);
+        padding:0 0 em(15px) em(25px,16px) ;
+        line-height: em(31px,16px);
+        
+    }
+}

@@ -1,0 +1,17 @@
+.contact{
+    padding: em(50px) em(10px) em(100px);
+}
+
+.contact-left-text{
+    h3{
+        @include second-title;
+    }
+
+    h2{
+        @include main-title;
+    }
+
+    p{
+        @include text;
+    }
+}

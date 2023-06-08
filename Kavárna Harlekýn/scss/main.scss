@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@300;400;600&family=Merriweather:wght@300&display=swap');
+
+
+@import 'context';
+@import 'sites/footer';
+@import 'sites/header-page';
+@import 'sites/home';
+@import 'sites/about-us';
+@import 'sites/menu';
+@import 'sites/reservation';
+@import 'sites/contact';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.content{
+    max-width: em(1200px);
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 em(30px);
+}
+
+h1,h2{
+    text-transform: uppercase;
+}
+
+p{
+    color: $text-color;
+    font-family: $second-font;
+}
+
+a{
+    color: black;
+    text-transform: uppercase;
+    font-family: $main-font;
+}
+
+
+
+
+.clearfix{zoom : 1}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}

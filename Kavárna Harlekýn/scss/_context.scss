@@ -1,0 +1,62 @@
+//color
+$second-text-color:#C59D5F;
+$text-color:#888888;
+$nav-color:#666666;
+
+//fonts
+$main-font:'Josefin Sans', sans-serif;
+$second-font: 'Merriweather', serif;
+$title-font:'Allura', cursive ;
+
+
+@mixin main-title($font-size:em(37px)) {
+    font-size: $font-size;
+    font-family: $main-font; 
+    padding-bottom:em(25px,50px) ; 
+}
+
+@mixin second-title{
+    font-size:em(50px) ;
+    color: $second-text-color;
+    font-family: $title-font;
+    font-weight: 100;
+    padding-bottom:em(15px,50px) ;
+}
+
+
+@mixin text($padding:em(40px)) {
+    max-width: 89%;
+    color: $text-color;
+    font-size: em(15.5px);
+    line-height: em(29px);
+    padding-bottom: $padding;
+}
+
+@mixin button($padding:10px em(100px)) {
+    display: inline-block;
+    font-size: em(16.5px);
+    line-height: em(30px);
+    border: em(1px) solid $second-text-color;
+    text-decoration: none;
+    padding: $padding;
+    transition: all 0.6s;
+    
+
+    &:hover{
+        border:em(1px) solid black ;         
+    }
+}
+
+
+@mixin picture-background($height:100vh) {
+    position: relative;
+    height:$height;
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+@function em($pixels,$basicValue:16px){
+    @return calc($pixels / $basicValue) * 1em;
+}

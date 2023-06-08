@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@300;400;600&family=Merriweather:wght@300&display=swap");
+footer {
+  border-top: 1px solid #d4d4d4;
+}
+
+.footer-text {
+  font-size: 0.875em;
+  line-height: 1.3571428571em;
+  padding: 2.1428571429em 0 3.2142857143em;
+}
+
+.left-site {
+  display: inline-block;
+}
+
+.right-site {
+  float: right;
+}
+
+p a {
+  color: #888888;
+  font-family: "Merriweather", serif;
+  text-transform: none;
+}
+p a:hover {
+  color: #555555;
+}
+
+.index-header {
+  background: url("/img/landing-page/tart.jpg");
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+
+.second-header .nav .logo {
+  color: #222222;
+}
+.second-header .menu-nav-link {
+  color: #666666;
+}
+
+.nav {
+  line-height: 7.5em;
+  text-transform: uppercase;
+  padding: 0 1.875em;
+}
+.nav .logo {
+  font-size: 1.25em;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  float: left;
+}
+.nav .logo a {
+  text-decoration: none;
+}
+
+.menu-nav {
+  float: right;
+}
+.menu-nav-item {
+  display: inline-block;
+  padding: 0 1em;
+}
+.menu-nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.96875em;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  transition: all 0.5s ease;
+}
+.menu-nav-link:hover {
+  color: #C59D5F;
+}
+.menu-nav .active > a {
+  color: #C59D5F;
+}
+
+.navigatio-main-content {
+  display: block;
+  color: #fff;
+  padding: 12.5em 1.875em;
+  font-family: "Josefin Sans", sans-serif;
+}
+.navigatio-main-content h3 {
+  font-size: 4em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+}
+.navigatio-main-content h1 {
+  font-size: 3.875em;
+  color: #fff;
+  margin: 0.8870967742em 0 1.0483870968em 0;
+}
+.navigatio-main-content p {
+  color: #fff;
+  position: relative;
+  font-size: 1em;
+  margin-left: 3.4375em;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
+.navigatio-main-content p::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -50px;
+  display: inline-block;
+  width: 2.625em;
+  height: 0.1875em;
+  background-color: #C59D5F;
+}
+
+/*day menu*/
+.menu-of-the-day {
+  padding: 6.25em 1.5625em;
+}
+
+.description-of-the-offer h3 {
+  font-size: 3.125em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.description-of-the-offer h2 {
+  font-size: 2.3125em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0.5em;
+}
+.description-of-the-offer p {
+  max-width: 89%;
+  color: #888888;
+  font-size: 0.96875em;
+  line-height: 1.8125em;
+  padding-bottom: 2.5em;
+}
+.description-of-the-offer .button {
+  display: inline-block;
+  font-size: 1.03125em;
+  line-height: 1.875em;
+  border: 0.0625em solid #C59D5F;
+  text-decoration: none;
+  padding: 10px 6.25em;
+  transition: all 0.6s;
+}
+.description-of-the-offer .button:hover {
+  border: 0.0625em solid black;
+}
+
+.price-items {
+  color: black;
+  border-bottom: 1px solid #d4d4d4;
+}
+.price-items:nth-last-child(1) {
+  border-bottom: none;
+}
+.price-items .price-item {
+  display: inline-block;
+}
+.price-items .price-item h3 {
+  font-size: 1.34375em;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  margin: 0.625em 0 10px;
+}
+.price-items .price-item p {
+  margin-bottom: 0.9375em;
+}
+.price-items .price-offer {
+  color: black;
+  font-size: 1.25em;
+  font-family: "Josefin Sans", sans-serif;
+  float: right;
+  margin-top: 0.625em;
+}
+
+.cherries-cake {
+  background-image: url("/img/landing-page/cherrycake.jpg");
+  position: relative;
+  height: 65vh;
+  background-size: cover;
+  background-position: top;
+}
+
+.our-story {
+  padding: 6.25em 1.5625em;
+}
+.our-story-title {
+  display: inline-block;
+}
+.our-story-title h3 {
+  font-size: 3.125em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.our-story-title h2 {
+  font-size: 2.3125em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0.5em;
+}
+.our-story .story p {
+  max-width: 89%;
+  color: #888888;
+  font-size: 0.96875em;
+  line-height: 1.8125em;
+  padding-bottom: 1.25em;
+}
+
+.fruity-cake {
+  background-image: url("/img/landing-page/fruitycake.jpg");
+  position: relative;
+  height: 65vh;
+  background-size: cover;
+  background-position: top;
+}
+
+.reservation {
+  padding: 6.25em 1.5625em;
+}
+.reservation-title {
+  display: inline-block;
+}
+.reservation-title h3 {
+  font-size: 3.125em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.reservation-title h2 {
+  font-size: 2.3125em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0.5em;
+}
+.reservation-information p {
+  max-width: 89%;
+  color: #888888;
+  font-size: 0.96875em;
+  line-height: 1.8125em;
+  padding-bottom: 1em;
+}
+.reservation-information .phone {
+  padding-bottom: 2.5em;
+}
+.reservation-information .phone a {
+  color: #888888;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+.reservation-information .phone a:hover {
+  color: #555555;
+}
+.reservation-information .button {
+  display: inline-block;
+  font-size: 1.03125em;
+  line-height: 1.875em;
+  border: 0.0625em solid #C59D5F;
+  text-decoration: none;
+  padding: 0.625em 2.1875em;
+  transition: all 0.6s;
+}
+.reservation-information .button:hover {
+  border: 0.0625em solid black;
+}
+
+.about-us {
+  padding: 3.125em 0.625em 6.25em;
+}
+.about-us-title {
+  display: inline-block;
+}
+.about-us-title h3 {
+  font-size: 3.125em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.about-us-title h2 {
+  font-size: 2.8125em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0.5em;
+}
+.about-us .story p {
+  max-width: 89%;
+  color: #888888;
+  font-size: 0.96875em;
+  line-height: 1.8125em;
+  padding-bottom: 1.5625em;
+  font-size: 0.96875em;
+}
+
+.continue-about-us {
+  padding-top: 2.5em;
+}
+.continue-about-us img {
+  display: inline-block;
+}
+.continue-about-us p {
+  width: 100%;
+  font-size: 1em;
+  padding: 0 0 0.9375em 1.5625em;
+  line-height: 1.9375em;
+}
+
+.menu {
+  padding: 2.5em 1.25em 5.3125em;
+}
+
+.menu-items {
+  color: black;
+  border-bottom: 1px solid #d4d4d4;
+}
+.menu-items:nth-last-child(1) {
+  border-bottom: none;
+}
+.menu-items .menu-item {
+  display: inline-block;
+}
+.menu-items .menu-item h3 {
+  font-size: 1em;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  margin: 0.625em 0 10px;
+}
+.menu-items .menu-item p {
+  margin-bottom: 0.9375em;
+}
+.menu-items .menu-offer {
+  color: black;
+  font-size: 1em;
+  font-family: "Merriweather", serif;
+  float: right;
+  margin-top: 0.625em;
+}
+
+.desserts {
+  padding-right: 25px;
+}
+
+.drinks {
+  padding-left: 25px;
+}
+
+.titles {
+  text-align: center;
+  padding-bottom: 0.9375em;
+}
+.titles h3 {
+  font-size: 3.125em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.titles h2 {
+  font-size: 2.8125em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0.5em;
+}
+
+.reservation-form {
+  padding: 7.1875em 1.5625em 12.5em;
+}
+.reservation-form .input-field {
+  display: flex;
+  align-items: flex-start;
+  text-align: right;
+}
+.reservation-form input[type=text], .reservation-form textarea {
+  margin-bottom: 1.25em;
+  width: 65%;
+  padding: 0.75em 0.75em 0.5625em;
+  border: 0.0625em solid #d5d5d5;
+  border-radius: 0.125em;
+  outline: none;
+  transition: border 0.5s;
+}
+.reservation-form input[type=text]:focus, .reservation-form textarea:focus {
+  border: 1px solid rgba(5, 130, 255, 0.991);
+}
+.reservation-form label {
+  width: 25%;
+  display: inline-block;
+  padding: 0.5625em 0.625em 0.5625em 0;
+  color: #888888;
+  font-size: 0.875em;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+.reservation-form .button {
+  display: inline-block;
+  font-size: 1.03125em;
+  line-height: 1.875em;
+  border: 0.0625em solid #C59D5F;
+  text-decoration: none;
+  padding: 0.625em 5em;
+  transition: all 0.6s;
+  margin-left: 135px;
+  background: none;
+  text-transform: uppercase;
+}
+.reservation-form .button:hover {
+  border: 0.0625em solid black;
+}
+
+.reservation {
+  padding: 6.25em 1.5625em;
+}
+.reservation-title {
+  display: inline-block;
+}
+.reservation-title h3 {
+  font-size: 3.125em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.reservation-title h2 {
+  font-size: 3em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0.5em;
+}
+.reservation-information p {
+  max-width: 89%;
+  color: #888888;
+  font-size: 0.96875em;
+  line-height: 1.8125em;
+  padding-bottom: 1em;
+}
+.reservation-information .phone {
+  padding-bottom: 2.5em;
+}
+.reservation-information .phone a {
+  color: #888888;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+.reservation-information .phone a:hover {
+  color: #555555;
+}
+
+.contact {
+  padding: 3.125em 0.625em 6.25em;
+}
+
+.contact-left-text h3 {
+  font-size: 3.125em;
+  color: #C59D5F;
+  font-family: "Allura", cursive;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.contact-left-text h2 {
+  font-size: 2.3125em;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0.5em;
+}
+.contact-left-text p {
+  max-width: 89%;
+  color: #888888;
+  font-size: 0.96875em;
+  line-height: 1.8125em;
+  padding-bottom: 2.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content {
+  max-width: 75em;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 1.875em;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+p {
+  color: #888888;
+  font-family: "Merriweather", serif;
+}
+
+a {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}

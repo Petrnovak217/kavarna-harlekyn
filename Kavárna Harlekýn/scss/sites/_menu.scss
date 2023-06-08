@@ -1,0 +1,50 @@
+.menu{
+    padding:em(40px) em(20px) em(85px) ;
+}
+
+.menu-items{    
+    color: black;
+    border-bottom: 1px solid #d4d4d4;
+
+    &:nth-last-child(1){
+        border-bottom: none;
+    }
+
+    .menu-item{
+        display: inline-block;
+
+        h3{  
+            font-size: em(16px); 
+            font-family: $second-font;  
+            font-weight: 700;
+            margin: em(10px)  0 10px;     
+        }
+
+        p{
+            margin-bottom: em(15px);
+        }
+    }
+
+    .menu-offer{
+        color: black;
+        font-size: em(16px);
+        font-family: $second-font;
+        float: right;
+        margin-top: em(10px);
+    } 
+}   
+
+.desserts{
+    padding-right: 25px;
+}
+
+.drinks{
+    padding-left: 25px;
+}
+
+.titles{
+    text-align: center;
+    h3{@include second-title }
+    h2{@include main-title(em(45px))}
+    padding-bottom: em(15px);
+}
